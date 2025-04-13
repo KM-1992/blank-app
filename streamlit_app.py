@@ -8,3 +8,9 @@ st.subheader(body='中見出し `<h3>`',
             anchor='title',
             help='`<h3>`あるいは`###`に相当するstreamlitのコマンド',
             divider=True)
+
+
+with st.echo(code_location='below'):
+            st.write(':red[風船アニメーション]')
+            st.balloons()
+            
