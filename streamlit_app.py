@@ -11,6 +11,6 @@ st.subheader(body='中見出し `<h3>`',
 
 
 with st.echo(code_location='below'):
-            st.write(':red[風船アニメーション]')
+            st.write(':red[風船アニメーション] `<h1>`')
             st.balloons()
             
